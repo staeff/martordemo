@@ -143,3 +143,6 @@ STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
 STATIC_ROOT = os.path.join(tempfile.gettempdir(), 'martor_static')
 MEDIA_ROOT = os.path.join(tempfile.gettempdir(), 'martor_media')
+
+
+DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
