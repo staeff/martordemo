@@ -141,8 +141,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 MEDIA_URL = '/media/'
-STATIC_ROOT = BASE_DIR.joinpath('martor_static')
-MEDIA_ROOT = BASE_DIR.joinpath('martor_media')
+STATIC_ROOT = BASE_DIR.joinpath('static')
+MEDIA_ROOT = BASE_DIR.joinpath('media')
 
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
