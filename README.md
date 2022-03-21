@@ -8,7 +8,13 @@ Follows [https://semaphoreci.com/community/tutorials/dockerizing-a-python-django
 $ docker run -dp 8020:8020 -e DJANGO_SUPERUSER_USERNAME=admin -e DJANGO_SUPERUSER_PASSWORD=sekret1 -e DJANGO_SUPERUSER_EMAIL=admin@example.com staeff/martordemo
 ```
 
-## Run locally
+## Run locally with docker-compose
+
+```sh
+$ docker-compose up -d
+```
+
+## Run locally without docker-compose
 
 ```sh
 $ git clone https://github.com/staeff/martordemo.git
