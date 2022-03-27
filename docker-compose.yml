@@ -4,7 +4,7 @@ services:
   app:
     image: staeff/martordemo
     ports:
-      - 8020:8020
+      - 8080:8080
     environment:
       DJANGO_SUPERUSER_USERNAME: ${DJANGO_SUPERUSER_USERNAME:-admin}
       DJANGO_SUPERUSER_PASSWORD: ${DJANGO_SUPERUSER_PASSWORD:-t0ps3cr3t}

@@ -10,6 +10,6 @@ RUN chown -R www-data:www-data /opt/app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
-EXPOSE 8020
+EXPOSE 8080
 STOPSIGNAL SIGTERM
 CMD ["/opt/app/start-server.sh"]
